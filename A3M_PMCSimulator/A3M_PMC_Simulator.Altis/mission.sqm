@@ -131,7 +131,7 @@ addons[]=
 	"ace_nametags",
 	"alive_mil_c2istar",
 	"ace_finger",
-	"ace_sitting",
+	"acex_sitting",
 	"A3_Modules_F_Misc",
 	"ace_weather"
 };
@@ -26423,12 +26423,12 @@ class Mission
 				position[]={28651.563,-185.97,29749.664};
 			};
 			id=1664;
-			type="ACE_ModuleSitting";
+			type="ACEX_Sitting";
 			class CustomAttributes
 			{
 				class Attribute0
 				{
-					property="ACE_ModuleSitting_enable";
+					property="ACEX_Sitting_enable";
 					expression="_this setVariable ['enable',_value,true];";
 					class Value
 					{
